@@ -1,0 +1,53 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:03 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_126.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_126.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] flowables.py:1012 Number of items in TOC changed from 0 to 15, not satisfied
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+* [INFO] flowables.py:1015 TOC entries that moved in this pass:
+* [INFO] flowables.py:1018 (0, '<a name="section-1"/>2\xc2\xa0\xc2\xa0\xc2\xa0Section 1', u'2', None)
+* [INFO] flowables.py:1019 (0, '<a name="section-1"/>2\xc2\xa0\xc2\xa0\xc2\xa0Section 1', u'1', None)
+* [INFO] flowables.py:1018 (1, '<a name="subsection-1-1"/>2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsection 1.1', u'2', None)
+* [INFO] flowables.py:1019 (1, '<a name="subsection-1-1"/>2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsection 1.1', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-1-1-1"/>2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 1.1.1', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-1-1-1"/>2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 1.1.1', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-1-1-2"/>2.1.2\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 1.1.2', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-1-1-2"/>2.1.2\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 1.1.2', u'1', None)
+* [INFO] flowables.py:1018 (1, '<a name="subsection-1-2"/>2.2\xc2\xa0\xc2\xa0\xc2\xa0Subsection 1.2', u'2', None)
+* [INFO] flowables.py:1019 (1, '<a name="subsection-1-2"/>2.2\xc2\xa0\xc2\xa0\xc2\xa0Subsection 1.2', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-1-2-1"/>2.2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 1.2.1', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-1-2-1"/>2.2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 1.2.1', u'1', None)
+* [INFO] flowables.py:1018 (3, '<a name="subsubsubsection-1-2-1-1"/>2.2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsubsection 1.2.1.1', u'2', None)
+* [INFO] flowables.py:1019 (3, '<a name="subsubsubsection-1-2-1-1"/>2.2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsubsection 1.2.1.1', u'1', None)
+* [INFO] flowables.py:1018 (0, '<a name="section-2"/>3\xc2\xa0\xc2\xa0\xc2\xa0Section 2', u'2', None)
+* [INFO] flowables.py:1019 (0, '<a name="section-2"/>3\xc2\xa0\xc2\xa0\xc2\xa0Section 2', u'1', None)
+* [INFO] flowables.py:1018 (1, '<a name="subsection-2-1"/><a name="contents"/>3.1\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.1', u'2', None)
+* [INFO] flowables.py:1019 (1, '<a name="subsection-2-1"/><a name="contents"/>3.1\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.1', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-2-1-1"/><a name="id1"/>3.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.1', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-2-1-1"/><a name="id1"/>3.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.1', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-2-1-2"/>3.1.2\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.2', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-2-1-2"/>3.1.2\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.2', u'1', None)
+* [INFO] flowables.py:1018 (1, '<a name="subsection-2-2"/>3.2\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.2', u'2', None)
+* [INFO] flowables.py:1019 (1, '<a name="subsection-2-2"/>3.2\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.2', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-2-2-1"/><a name="id2"/>3.2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.2.1', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-2-2-1"/><a name="id2"/>3.2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.2.1', u'1', None)
+* [INFO] flowables.py:1018 (3, '<a name="subsubsubsection-2-2-1-1"/>3.2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsubsection 2.2.1.1', u'2', None)
+* [INFO] flowables.py:1019 (3, '<a name="subsubsubsection-2-2-1-1"/>3.2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsubsection 2.2.1.1', u'1', None)
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_126.pdf checksum 'ab9d5557661ecda1c458f71ee2b4c240' is good.

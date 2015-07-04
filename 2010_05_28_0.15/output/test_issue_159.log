@@ -1,0 +1,18 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:04 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_159.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_159.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] basenodehandler.py:215 Unknown class admonition-x, ignoring. [near line UNKNOWN in file test_issue_159.txt]
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_159.pdf checksum '7a406279a393ea343b3a0302f1dd8210' is good.

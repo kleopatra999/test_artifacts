@@ -1,0 +1,19 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:06 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_216.txt -s test_issue_216.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_216.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_issue_216.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+* [INFO] createpdf.py:1022 Page 3 [3]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_216.pdf checksum 'e67de09f228504067ff9aa81ad0c2c04' is good.

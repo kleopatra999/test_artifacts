@@ -1,0 +1,28 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:08 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_239_2.txt -e inkscape -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_239_2.pdf
+
+
+  DPI: 300
+  Background RRGGBBAA: ffffff00
+  Area 0:0:60:60 exported to 200 x 200 pixels (300 dpi)
+  Bitmap saved as: /tmp/tmp8fIY1h.png
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] createpdf.py:1432 Importing extension module 'inkscape'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/warning.svg without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/warning.svg size calculated:  1.693333cm by 1.693333cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/warning.svg without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/warning.svg size calculated:  1.693333cm by 1.693333cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/warning.svg is SVGIMage
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/warning.svg is SVGIMage
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_239_2.pdf checksum 'e28c84694ed5cbf8fda591e1b32c7a90' is good.

@@ -1,0 +1,42 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:00 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_inkscape.txt -e inkscape -s
+        test_inkscape.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_inkscape.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] createpdf.py:1432 Importing extension module 'inkscape'
+* [INFO] styles.py:82 Using stylesheets: test_inkscape.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  2.540000cm by 2.349500cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  3.527778cm by 3.263194cm [near line UNKNOWN in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg without specifying size.Calculating based on image size at 300dpi [near line 62 in file test_inkscape.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg size calculated:  16.933333cm by 15.663333cm [near line 62 in file test_inkscape.txt]
+* [INFO] image.py:244 Backend for /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is SVGIMage
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [WARNING] image.py:468 image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.svg is too wide for the frame, rescaling
+* [INFO] createpdf.py:1022 Page 2 [2]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_inkscape.pdf checksum '2f04bbc9cf4badb09e8b8af05271b16d' is good.

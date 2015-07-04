@@ -1,0 +1,52 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:10 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_267.txt -e vectorpdf -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_267.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line 7 in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line 7 in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png without specifying size.Calculating based on image size at 96dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/biohazard.png size calculated:  0.423333cm by 0.423333cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line 47 in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line 47 in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file test_issue_267.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file test_issue_267.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+* [INFO] createpdf.py:1022 Page 3 [3]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.1 seconds
+
+Validity of file test_issue_267.pdf checksum '836de4efeda19a56cb92b73dc799bc63' is good.

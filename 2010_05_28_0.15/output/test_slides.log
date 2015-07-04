@@ -1,0 +1,24 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:20 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_slides.txt -b 1 -s test_slides.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_slides.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_slides.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [ERROR] math_flowable.py:29 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+* [INFO] createpdf.py:584 Starting build
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/background.svg without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/background.svg size calculated:  19.989975cm by 11.220370cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:244 Backend for images/background.svg is SVGIMage
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+* [INFO] createpdf.py:1022 Page 3 [3]
+* [INFO] createpdf.py:1022 Page 4 [4]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_slides.pdf checksum '1496010fe28a4d6a8da166bc8909538b' is unknown.

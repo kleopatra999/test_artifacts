@@ -1,0 +1,35 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:22 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_tableofcontents.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_tableofcontents.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] flowables.py:1012 Number of items in TOC changed from 0 to 14, not satisfied
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+* [INFO] flowables.py:1015 TOC entries that moved in this pass:
+* [INFO] flowables.py:1018 (1, '<a name="subsection-2-1"/><a name="contents"/>2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.1', u'2', None)
+* [INFO] flowables.py:1019 (1, '<a name="subsection-2-1"/><a name="contents"/>2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.1', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-2-1-1"/><a name="id1"/>2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.1', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-2-1-1"/><a name="id1"/>2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.1', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-2-1-2"/>2.1.2\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.2', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-2-1-2"/>2.1.2\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.1.2', u'1', None)
+* [INFO] flowables.py:1018 (1, '<a name="subsection-2-2"/>2.2\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.2', u'2', None)
+* [INFO] flowables.py:1019 (1, '<a name="subsection-2-2"/>2.2\xc2\xa0\xc2\xa0\xc2\xa0Subsection 2.2', u'1', None)
+* [INFO] flowables.py:1018 (2, '<a name="subsubsection-2-2-1"/><a name="id2"/>2.2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.2.1', u'2', None)
+* [INFO] flowables.py:1019 (2, '<a name="subsubsection-2-2-1"/><a name="id2"/>2.2.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsection 2.2.1', u'1', None)
+* [INFO] flowables.py:1018 (3, '<a name="subsubsubsection-2-2-1-1"/>2.2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsubsection 2.2.1.1', u'2', None)
+* [INFO] flowables.py:1019 (3, '<a name="subsubsubsection-2-2-1-1"/>2.2.1.1\xc2\xa0\xc2\xa0\xc2\xa0Subsubsubsection 2.2.1.1', u'1', None)
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_tableofcontents.pdf checksum '25c1b538f069cecdba6c0cd53ced2f14' is good.

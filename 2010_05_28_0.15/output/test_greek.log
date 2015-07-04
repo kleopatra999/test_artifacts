@@ -1,0 +1,23 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:01:58 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_greek.txt -s test_greek.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_greek.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_greek.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] findfonts.py:270 Trying to embed DejaVu Sans
+* [INFO] findfonts.py:314 Registering font: DejaVuSans from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf
+* [INFO] findfonts.py:314 Registering font: DejaVuSans-Bold from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Bold.ttf
+* [INFO] findfonts.py:314 Registering font: DejaVuSans-Oblique from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Oblique.ttf
+* [INFO] findfonts.py:314 Registering font: DejaVuSans-BoldOblique from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-BoldOblique.ttf
+* [INFO] findfonts.py:326 Embedding via findTTFont as ['DejaVuSans', 'DejaVuSans-Bold', 'DejaVuSans-Oblique', 'DejaVuSans-BoldOblique']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_greek.pdf checksum '365949daa5975abce047d41fbfcbfec5' is unknown.

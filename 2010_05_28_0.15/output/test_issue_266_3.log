@@ -1,0 +1,26 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:10 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_266_3.txt -e vectorpdf -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_266_3.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line 11 in file test_issue_266_3.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  9.525000cm by 4.586111cm [near line 11 in file test_issue_266_3.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file test_issue_266_3.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  14.287500cm by 6.879167cm [near line UNKNOWN in file test_issue_266_3.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file test_issue_266_3.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf size calculated:  28.575000cm by 13.758333cm [near line UNKNOWN in file test_issue_266_3.txt]
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [WARNING] image.py:468 image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/demo.pdf#page=6#viewrect=250,330,270,130 is too wide for the frame, rescaling
+* [INFO] createpdf.py:1022 Page 2 [2]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_266_3.pdf checksum '67bc8632435455c3e0ba6bb3de81b97d' is good.

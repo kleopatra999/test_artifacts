@@ -1,0 +1,33 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:16 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_312_2.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_312_2.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/images/tall_image.png size calculated:  2.822222cm by 22.577778cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* Traceback (most recent call last):
+*   File "/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/execmgr.py", line 78, in wrapper
+*     preexec_fn()
+*   File "/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/createpdf.py", line 1357, in main
+*     compressed=options.compressed)
+*   File "/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/createpdf.py", line 586, in createPdf
+*     pdfdoc.multiBuild(elements)
+*   File "/home/pmaupin/projects/opensource/rst2pdf/eggs/reportlab-2.4-py2.6-linux-x86_64.egg/reportlab/platypus/doctemplate.py", line 955, in multiBuild
+*     self.build(tempStory, **buildKwds)
+*   File "/home/pmaupin/projects/opensource/rst2pdf/eggs/reportlab-2.4-py2.6-linux-x86_64.egg/reportlab/platypus/doctemplate.py", line 877, in build
+*     self.handle_flowable(flowables)
+*   File "/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/createpdf.py", line 724, in handle_flowable
+*     raise LayoutError(ident)
+* LayoutError: Flowable <DelayedTable at 0x18d3ea8> containing: [<rst2pdf.image.MyImage instance at 0x18d3bd8>] too large on page 2 in frame None(469.88976378 x 688.157480315*) of template 'fancypage'
+* 
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: FAIL (1)   elapsed time: 00.0 seconds
+
+File test_issue_312_2.pdf not generated

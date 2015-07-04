@@ -1,0 +1,36 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:01:56 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_extensions.txt -e sample -e
+        test_extensions.py -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_extensions.pdf
+
+
+  
+  This is a sample rst2pdf extension.
+  
+  Because it is named 'sample.py' you can get rst2pdf to import it by
+  putting '-e sample' on the rst2pdf command line.
+  
+  An extension is called after the command-line is parsed, and can
+  monkey-patch any necessary changes into rst2pdf.
+  
+  An extension can live either in the extensions subdirectory, or
+  anywhere on the python path.
+  
+  
+  
+  This test should print the message from the sample extension,
+  and then this message, and then generate an empty PDF.
+  
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] createpdf.py:1432 Importing extension module 'sample'
+* [INFO] createpdf.py:1432 Importing extension module 'test_extensions'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] createpdf.py:584 Starting build
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_extensions.pdf checksum '9852870a99307db4145b47ac7db44da9' is good.

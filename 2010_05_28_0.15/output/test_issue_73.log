@@ -1,0 +1,23 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:17 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_73.txt -s test_issue_73.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_73.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_issue_73.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] findfonts.py:270 Trying to embed DejaVu Sans Mono
+* [INFO] findfonts.py:314 Registering font: DejaVuSansMono from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf
+* [INFO] findfonts.py:314 Registering font: DejaVuSansMono-Bold from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Bold.ttf
+* [INFO] findfonts.py:314 Registering font: DejaVuSansMono-Oblique from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-Oblique.ttf
+* [INFO] findfonts.py:314 Registering font: DejaVuSansMono-BoldOblique from /usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono-BoldOblique.ttf
+* [INFO] findfonts.py:326 Embedding via findTTFont as ['DejaVuSansMono', 'DejaVuSansMono-Bold', 'DejaVuSansMono-Oblique', 'DejaVuSansMono-BoldOblique']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_73.pdf checksum 'b30d4755f83d4da6c1d63506a670404c' is unknown.

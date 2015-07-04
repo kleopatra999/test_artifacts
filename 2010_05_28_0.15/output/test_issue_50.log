@@ -1,0 +1,26 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:16 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_50.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_50.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/images/image-missing.jpg without specifying size.Calculating based on image size at 300dpi [near line 2 in file test_issue_50.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/images/image-missing.jpg size calculated:  1.083733cm by 1.083733cm [near line 2 in file test_issue_50.txt]
+* [ERROR] image.py:239 Missing image file: /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/notthere.jpg
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/images/image-missing.jpg without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/images/image-missing.jpg size calculated:  1.083733cm by 1.083733cm [near line UNKNOWN in file UNKNOWN]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/images/image-missing.jpg without specifying size.Calculating based on image size at 300dpi [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/images/image-missing.jpg size calculated:  1.083733cm by 1.083733cm [near line UNKNOWN in file UNKNOWN]
+* [ERROR] image.py:239 Missing image file: /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/notthere.jpg
+* [ERROR] image.py:109 Missing image file: /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/notthere.jpg
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_50.pdf checksum '87583a33a7c7ba096609630d7b3e9cfd' is good.

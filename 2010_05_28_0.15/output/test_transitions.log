@@ -1,0 +1,23 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:22 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_transitions.txt -s test_transitions.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_transitions.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_transitions.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [INFO] createpdf.py:1022 Page 2 [2]
+* [INFO] createpdf.py:1022 Page 3 [3]
+* [INFO] createpdf.py:1022 Page 4 [4]
+* [INFO] createpdf.py:1022 Page 5 [5]
+* [INFO] createpdf.py:1022 Page 6 [6]
+* [INFO] createpdf.py:1022 Page 7 [7]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_transitions.pdf checksum '6abbe3a0761c54dc7bbaed199039bb6a' is good.

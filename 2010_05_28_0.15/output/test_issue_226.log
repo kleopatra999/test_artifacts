@@ -1,0 +1,29 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:06 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_226.txt -s test_issue_226.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_226.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_issue_226.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] findfonts.py:270 Trying to embed Bitstream Charter Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x173c488> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x173c878> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x191de60> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x191dd40> from CharterBT-Italic
+* [INFO] findfonts.py:300 Embedding as ['CharterBT-Italic', 'CharterBT-Italic', 'CharterBT-Italic', 'CharterBT-Italic']
+* [INFO] findfonts.py:270 Trying to embed Bitstream Charter Oblique
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x191dea8> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x191dd88> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x191dc68> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x191da70> from CharterBT-Italic
+* [INFO] findfonts.py:300 Embedding as ['CharterBT-Italic', 'CharterBT-Italic', 'CharterBT-Italic', 'CharterBT-Italic']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_226.pdf checksum '75ae7e0265117a292b485c86519ae90f' is good.

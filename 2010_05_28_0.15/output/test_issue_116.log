@@ -1,0 +1,24 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:02:02 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_issue_116.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_issue_116.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/test_issue_116_1.png without specifying size.Calculating based on image size at 72dpi [near line 2 in file test_issue_116.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/test_issue_116_1.png size calculated:  105.833333cm by 70.555556cm [near line 2 in file test_issue_116.txt]
+* [WARNING] image.py:387 Using image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/test_issue_116_2.png without specifying size.Calculating based on image size at 72dpi [near line 3 in file test_issue_116.txt]
+* [INFO] image.py:429 Image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/test_issue_116_2.png size calculated:  70.555556cm by 105.833333cm [near line 3 in file test_issue_116.txt]
+* [INFO] createpdf.py:584 Starting build
+* [WARNING] image.py:463 image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/test_issue_116_1.png is too tall for the frame, rescaling
+* [INFO] createpdf.py:1022 Page 1 [1]
+* [WARNING] image.py:463 image /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/input/test_issue_116_2.png is too tall for the frame, rescaling
+* [INFO] createpdf.py:1022 Page 2 [2]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_116.pdf checksum 'cb62dcd2ffa1e3dfb37a261201de8a18' is good.

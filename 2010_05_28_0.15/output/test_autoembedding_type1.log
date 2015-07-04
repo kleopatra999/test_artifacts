@@ -1,0 +1,24 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf" started on Fri May 28 14:01:55 2010
+
+        /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf --date-
+        invariant -v test_autoembedding_type1.txt -s
+        test_autoembedding_type1.style -o
+        /home/pmaupin/projects/opensource/rst2pdf/rst2pdf/tests/output/test_autoembedding_type1.pdf
+
+
+* [INFO] createpdf.py:1432 Importing extension module 'vectorpdf'
+* [INFO] styles.py:82 Using stylesheets: test_autoembedding_type1.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf/rst2pdf/styles', '.']
+* [INFO] findfonts.py:270 Trying to embed CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x18258c0> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x179ef38> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x1913e60> from CharterBT-Italic
+* [INFO] findfonts.py:287 Registering font: <reportlab.pdfbase.pdfmetrics.EmbeddedType1Face instance at 0x1913d40> from CharterBT-Italic
+* [INFO] findfonts.py:300 Embedding as ['CharterBT-Italic', 'CharterBT-Italic', 'CharterBT-Italic', 'CharterBT-Italic']
+* [INFO] createpdf.py:584 Starting build
+* [INFO] createpdf.py:1022 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_autoembedding_type1.pdf checksum 'a8a7fe07c638a01cae97caf3f9ea59f5' is good.
