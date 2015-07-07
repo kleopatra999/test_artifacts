@@ -1,0 +1,32 @@
+Process "make" started on Tue Jul  7 01:41:54 2015
+
+        make clean pdf
+
+
+  rm -rf _build/*
+  sphinx-build -b pdf -d _build/doctrees   . _build/pdf
+  Running Sphinx v1.3.1
+  making output directory...
+  loading pickled environment... not yet created
+  building [mo]: targets for 0 po files that are out of date
+  building [pdf]: targets for 4 source files that are out of date
+  updating environment: 4 added, 0 changed, 0 removed
+  reading sources... [ 25%] file1
+  reading sources... [ 50%] file2
+  reading sources... [ 75%] file3
+  reading sources... [100%] index
+  
+  looking for now-outdated files... none found
+  pickling environment... done
+  checking consistency... done
+  processing Issue285... index file1 file2 file3 
+  resolving references...
+  done
+  writing Issue285... done
+  build succeeded.
+  
+  Build finished. The pdfs are in _build/pdf.
+
+Program make exit code: PASS (0)   elapsed time: 01.7 seconds
+
+Validity of file sphinx-issue285.pdf checksum '325888d8f4235dcc8b4a57197b831502' is unknown.

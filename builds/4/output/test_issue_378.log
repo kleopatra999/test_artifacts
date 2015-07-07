@@ -1,0 +1,56 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf" started on Sun Jul  5 17:24:58 2015
+
+        /home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf
+        --date-invariant -v test_issue_378.txt -o
+        /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/output/test_issue_378.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/styles', '.']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] createpdf.py:651 Starting build
+* Traceback (most recent call last):
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf", line 30, in <module>
+*     sys.exit(rst2pdf.createpdf.main())
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/createpdf.py", line 1495, in main
+*     compressed=options.compressed)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/createpdf.py", line 653, in createPdf
+*     pdfdoc.multiBuild(elements)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/doctemplate.py", line 960, in multiBuild
+*     self.build(tempStory, **buildKwds)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/doctemplate.py", line 880, in build
+*     self.handle_flowable(flowables)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/createpdf.py", line 762, in handle_flowable
+*     if frame.add(f, canv, trySplit=self.allowSplitting):
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/flowables.py", line 559, in add
+*     return Frame.add(self, flowable, canv, trySplit)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/frames.py", line 174, in _add
+*     flowable.drawOn(canv, self._x + self._leftExtraIndent, y, _sW=aW-w)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/flowables.py", line 248, in drawOn
+*     self.t.drawOn(canvas, x, y, _sW)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/flowables.py", line 108, in drawOn
+*     self._drawOn(canvas)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/flowables.py", line 89, in _drawOn
+*     self.draw()#this is the bit you overload
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/tables.py", line 1302, in draw
+*     self._drawCell(cellval, cellstyle, (colpos, rowpos), (colwidth, rowheight))
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/tables.py", line 1410, in _drawCell
+*     v.drawOn(self.canv,x,y)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/flowables.py", line 108, in drawOn
+*     self._drawOn(canvas)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/flowables.py", line 89, in _drawOn
+*     self.draw()#this is the bit you overload
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/paragraph.py", line 992, in draw
+*     self.drawPara(self.debug)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/paragraph.py", line 1458, in drawPara
+*     dpl( tx, offset, lines[0], noJustifyLast and nLines==1)
+*   File "/home/pmaupin/projects/opensource/rst2pdf-0.93/eggs/reportlab-2.5-py2.7-linux-i686.egg/reportlab/platypus/paragraph.py", line 335, in _justifyDrawParaLineX
+*     simple = last or abs(extraSpace)<=1e-8 or line.lineBreak
+* AttributeError: ParaLines instance has no attribute 'lineBreak'
+
+Program /home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf exit code: FAIL (1)   elapsed time: 00.2 seconds
+
+File test_issue_378.pdf not generated

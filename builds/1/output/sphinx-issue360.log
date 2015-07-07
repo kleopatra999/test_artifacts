@@ -1,0 +1,32 @@
+Process "make" started on Mon Jul  6 20:41:23 2015
+
+        make clean pdf
+
+
+  rm -rf build/*
+  sphinx-build -b pdf -d build/doctrees   source build/pdf
+  Running Sphinx v1.3.1
+  making output directory...
+  loading pickled environment... not yet created
+  building [mo]: targets for 0 po files that are out of date
+  building [pdf]: targets for 1 source files that are out of date
+  updating environment: 1 added, 0 changed, 0 removed
+  reading sources... [100%] index
+  
+  looking for now-outdated files... none found
+  pickling environment... done
+  checking consistency... done
+  processing sample... index 
+  resolving references...
+  done
+* [WARNING] flowables.py:734 BoundByWidth too wide to fit in frame (60199.0576172 > 510.444094488): <BoundByWidth at 0x4195088c> containing: [u'<XXPreformatted at 0x4198bccc>test test test test test test test test test te
+* [WARNING] flowables.py:734 BoundByWidth too wide to fit in frame (60199.0576172 > 510.444094488): <BoundByWidth at 0x4195088c> containing: [u'<XXPreformatted at 0x4198bccc>test test test test test test test test test te
+* [WARNING] flowables.py:734 BoundByWidth too wide to fit in frame (60199.0576172 > 510.444094488): <BoundByWidth at 0x4195088c> containing: [u'<XXPreformatted at 0x4198bccc>test test test test test test test test test te
+  writing sample... done
+  build succeeded.
+  
+  Build finished. The pdf file is in build/pdf.
+
+Program make exit code: PASS (0)   elapsed time: 01.1 seconds
+
+Validity of file sphinx-issue360.pdf checksum '34740831bb6bc6c6f1cadcf59fcd9a61' is unknown.

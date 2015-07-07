@@ -1,0 +1,32 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf" started on Sun Jul  5 14:09:34 2015
+
+        /home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf
+        --date-invariant -v test_image_units_pdf.txt -s
+        test_image_units_pdf.style -o
+        /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/output/test_image_units_pdf.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: test_image_units_pdf.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/styles', '.']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard_16dpi.png size calculated:  2.540000cm by 2.540000cm [near line 8 in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.540000cm by 2.540000cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  3.527778cm by 3.527778cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  1.763889cm by 1.763889cm [near line UNKNOWN in file test_image_units_pdf.txt]
+* [INFO] createpdf.py:651 Starting build
+* [INFO] createpdf.py:1112 Page 1 [1]
+* [INFO] createpdf.py:1112 Page 2 [2]
+
+Program /home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.3 seconds
+
+Validity of file test_image_units_pdf.pdf checksum 'ba50d581f2e8e9fe2cb51884fa7b3318' is unknown.

@@ -1,0 +1,17 @@
+Process "make" started on Sun Jul  5 17:58:22 2015
+
+        make clean pdf
+
+
+  rm -rf _build/*
+  sphinx-build -b pdf -d _build/doctrees   . _build/pdf
+* Traceback (most recent call last):
+*   File "/usr/bin/sphinx-build", line 14, in <module>
+*     from sphinx import main, make_main
+* ImportError: cannot import name make_main
+* make: *** [pdf] Error 1
+
+Program make exit code: FAIL (2)   elapsed time: 00.0 seconds
+
+Cannot determine build directory
+File sphinx-issue196.pdf not generated

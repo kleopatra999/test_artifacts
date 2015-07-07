@@ -1,0 +1,62 @@
+Process "/home/travis/miniconda/bin/rst2pdf" started on Tue Jul  7 01:39:00 2015
+
+        /home/travis/miniconda/bin/rst2pdf --date-invariant -v
+        test_issue_289.txt -s test_issue_289.style -o
+        /home/travis/build/pmaupin/radioactive-rst2pdf-
+        testing/rst2pdf/tests/output/test_issue_289.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: test_issue_289.style
+* [INFO] styles.py:110 FontPath:['/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/travis/.rst2pdf/styles', '/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/styles', '.']
+* [INFO] findfonts.py:270 Trying to embed Tuffy
+* [INFO] findfonts.py:314 Registering font: Tuffy from ./Tuffy.ttf
+* [INFO] findfonts.py:314 Registering font: Tuffy_Bold from ./Tuffy_Bold.ttf
+* [INFO] findfonts.py:314 Registering font: Tuffy_Italic from ./Tuffy_Italic.ttf
+* [INFO] findfonts.py:314 Registering font: Tuffy_Bold_Italic from ./Tuffy_Bold_Italic.ttf
+* [INFO] findfonts.py:326 Embedding via findTTFont as ['Tuffy', 'Tuffy_Bold', 'Tuffy_Italic', 'Tuffy_Bold_Italic']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] createpdf.py:651 Starting build
+* Traceback (most recent call last):
+*   File "/home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/execmgr.py", line 78, in wrapper
+*     preexec_fn()
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/createpdf.py", line 1495, in main
+*     compressed=options.compressed)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/createpdf.py", line 653, in createPdf
+*     pdfdoc.multiBuild(elements)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/doctemplate.py", line 970, in multiBuild
+*     self.build(tempStory, **buildKwds)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/doctemplate.py", line 890, in build
+*     self.handle_flowable(flowables)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/createpdf.py", line 762, in handle_flowable
+*     if frame.add(f, canv, trySplit=self.allowSplitting):
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/flowables.py", line 559, in add
+*     return Frame.add(self, flowable, canv, trySplit)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/frames.py", line 161, in _add
+*     w, h = flowable.wrap(aW, h)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/flowables.py", line 237, in wrap
+*     return self.t.wrap(w, h)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/tables.py", line 1173, in wrap
+*     self._calc(availWidth, availHeight)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/tables.py", line 625, in _calc
+*     self._calc_height(availHeight,availWidth,W=W)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/tables.py", line 556, in _calc_height
+*     dW,t = self._listCellGeom(v,w or self._listValueWidth(v),s)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/tables.py", line 397, in _listCellGeom
+*     vw, vh = v.wrapOn(canv, aW, aH)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/flowables.py", line 121, in wrapOn
+*     w, h = self.wrap(aW,aH)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/paragraph.py", line 1036, in wrap
+*     blPara = self.breakLines([first_line_width, later_widths])
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/paragraph.py", line 1244, in breakLines
+*     words[0:0] = _splitWord(word,maxWidth-spaceWidth-currentWidth,maxWidths,lineno,fontName,fontSize,self.encoding)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/paragraph.py", line 560, in _splitWord
+*     R.append(_SplitText(wordText))
+* UnicodeEncodeError: 'ascii' codec can't encode character u'\u2022' in position 0: ordinal not in range(128)
+* 
+
+Program /home/travis/miniconda/bin/rst2pdf exit code: FAIL (1)   elapsed time: 00.0 seconds
+
+File test_issue_289.pdf not generated

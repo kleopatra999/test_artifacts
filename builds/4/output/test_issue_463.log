@@ -1,0 +1,23 @@
+Process "/home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf" started on Sun Jul  5 17:25:02 2015
+
+        /home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf
+        --date-invariant -v test_issue_463.txt -s test_issue_463.style
+        -o
+        /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/output/test_issue_463.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: test_issue_463.style
+* [INFO] styles.py:110 FontPath:['/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/pmaupin/.rst2pdf/styles', '/home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/styles', '.']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  0.423280cm by 0.423280cm [near line 11 in file test_issue_463.txt]
+* [INFO] createpdf.py:651 Starting build
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.000000cm by 2.000000cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] image.py:424 Image /home/pmaupin/projects/opensource/rst2pdf-0.93/rst2pdf/tests/input/images/biohazard.pdf size calculated:  2.000000cm by 2.000000cm [near line UNKNOWN in file UNKNOWN]
+* [INFO] createpdf.py:1112 Page 1 [1]
+
+Program /home/pmaupin/projects/opensource/rst2pdf-0.93/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.3 seconds
+
+Validity of file test_issue_463.pdf checksum 'ba2c3560f1f3329dbc48b39c47f07711' is good.

@@ -1,0 +1,259 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 6 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+4 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceRGB
+ /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Height 120
+ /Length 48
+ /SMask 5 0 R
+ /Subtype /Image
+ /Type /XObject
+ /Width 120 >>
+stream
+Gb"0;0`_7S!5bE.WFlSlTE"rlzzzzzzzzz!!%PY!N#B2)#~>endstream
+
+endobj
+5 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceGray
+ /Decode [ 0
+ 1 ]
+ /Filter [ /ASCII85Decode
+ /FlateDecode ]
+ /Height 120
+ /Length 39
+ /Subtype /Image
+ /Type /XObject
+ /Width 120 >>
+stream
+Gb"0;!=]#/!5bE':MgUI'EA+5zz!!)M#3'[HE~>endstream
+
+endobj
+6 0 obj
+<< /BaseFont /ZapfDingbats
+ /Encoding /ZapfDingbatsEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 8 0 R
+ /XYZ
+ 0
+ 0
+ 0 ]
+ /Rect [ 82.70291
+ 570.5936
+ 107.7129
+ 582.5936 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+8 0 obj
+<< /Annots [ 7 0 R ]
+ /Contents 15 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 14 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ]
+ /XObject << /FormXob.rst2pdf_image_0 4 0 R >> >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+9 0 obj
+<< /Outlines 11 0 R
+ /PageLabels 16 0 R
+ /PageMode /UseNone
+ /Pages 14 0 R
+ /Type /Catalog >>
+endobj
+10 0 obj
+<< /Author ()
+ /CreationDate (D:20000101000000+00'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title () >>
+endobj
+11 0 obj
+<< /Count 2
+ /First 12 0 R
+ /Last 13 0 R
+ /Type /Outlines >>
+endobj
+12 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 741.0236
+ 0 ]
+ /Next 13 0 R
+ /Parent 11 0 R
+ /Title (Inline Math) >>
+endobj
+13 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 690.0236
+ 0 ]
+ /Parent 11 0 R
+ /Prev 12 0 R
+ /Title (Math Directive) >>
+endobj
+14 0 obj
+<< /Count 1
+ /Kids [ 8 0 R ]
+ /Type /Pages >>
+endobj
+15 0 obj
+<< /Length 2028 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Bring rst2pdf math support to the level of sphinx's math extension.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Inline Math) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+q
+10 0 0 10 145.07 4.82 cm
+/FormXob.rst2pdf_image_0 Do
+Q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (Since Pythagoras, we know that ) Tj 155.07 0 Td (.) Tj T* -155.07 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+q
+BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Math Directive) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (This below should go in two lines:) Tj T* ET
+Q
+Q
+q
+BT 1 0 0 1 292.6378 641.0236 Tm (\(a + b\)^2 = a^2 + 2ab + b^2) Tj /F3 12 Tf 14.4 TL (nn) Tj /F1 12 Tf 14.4 TL (\(a - b\)^2 = a^2 - 2ab + b^2) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Aligned equations:) Tj T* ET
+Q
+Q
+q
+BT 1 0 0 1 292.6378 613.0236 Tm (\(a + b\)^2  &=  \(a + b\)\(a + b\) \\\\) Tj /F3 12 Tf 14.4 TL (n) Tj /F1 12 Tf 14.4 TL (           &=  a^2 + 2ab + b^2) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 595.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Simple math can go as argument of the directive) Tj T* ET
+Q
+Q
+q
+BT 1 0 0 1 292.6378 585.0236 Tm (\(a + b\)^2 = a^2 + 2ab + b^2) Tj T* ET
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+BT 1 0 0 1 0 4.82 Tm 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj 0 0 .501961 rg (euler ) Tj 0 0 0 rg (label should point at this equation:) Tj T* ET
+Q
+Q
+q
+BT 1 0 0 1 292.6378 557.0236 Tm (e^{i\\pi} + 1 = 0) Tj T* ET
+Q
+q
+BT 1 0 0 1 292.6378 547.0236 Tm (\\begin{eqnarray}) Tj /F3 12 Tf 14.4 TL (n) Tj /F1 12 Tf 14.4 TL (   y    & = & ax^2 + bx + c \\\\) Tj /F3 12 Tf 14.4 TL (n) Tj /F1 12 Tf 14.4 TL (   f\(x\) & = & x^2 + 2xy + y^2) Tj /F3 12 Tf 14.4 TL (n) Tj /F1 12 Tf 14.4 TL (\\end{eqnarray}) Tj T* ET
+Q
+ 
+endstream
+
+endobj
+16 0 obj
+<< /Nums [ 0
+ 17 0 R ] >>
+endobj
+17 0 obj
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 18
+0000000000 65535 f
+0000000075 00000 n
+0000000133 00000 n
+0000000251 00000 n
+0000000374 00000 n
+0000000646 00000 n
+0000000915 00000 n
+0000001041 00000 n
+0000001225 00000 n
+0000001526 00000 n
+0000001642 00000 n
+0000001825 00000 n
+0000001908 00000 n
+0000002037 00000 n
+0000002169 00000 n
+0000002236 00000 n
+0000004323 00000 n
+0000004369 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(-\270/\215\023\374\232\255\017j\310\301DYu\363) (-\270/\215\023\374\232\255\017j\310\301DYu\363)] 
+
+ /Info 10 0 R
+ /Root 9 0 R
+ /Size 18 >>
+startxref
+4408
+%%EOF

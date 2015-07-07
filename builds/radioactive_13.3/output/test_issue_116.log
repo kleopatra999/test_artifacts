@@ -1,0 +1,24 @@
+Process "/home/travis/miniconda/bin/rst2pdf" started on Tue Jul  7 01:35:04 2015
+
+        /home/travis/miniconda/bin/rst2pdf --date-invariant -v
+        test_issue_116.txt -o /home/travis/build/pmaupin/radioactive-
+        rst2pdf-testing/rst2pdf/tests/output/test_issue_116.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/travis/.rst2pdf/styles', '/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/styles', '.']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] image.py:424 Image /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/test_issue_116_1.png size calculated:  105.833333cm by 70.555556cm [near line 2 in file test_issue_116.txt]
+* [INFO] image.py:424 Image /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/test_issue_116_2.png size calculated:  70.555556cm by 105.833333cm [near line 3 in file test_issue_116.txt]
+* [INFO] createpdf.py:651 Starting build
+* [WARNING] image.py:463 image /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/test_issue_116_1.png is too tall for the frame, rescaling
+* [INFO] createpdf.py:1112 Page 1 [1]
+* [WARNING] image.py:463 image /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/test_issue_116_2.png is too tall for the frame, rescaling
+* [INFO] createpdf.py:1112 Page 2 [2]
+
+Program /home/travis/miniconda/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_issue_116.pdf checksum 'baf409a2a8992ccc77dd976299c416a6' is good.

@@ -1,0 +1,58 @@
+Process "make" started on Tue Jul  7 01:35:35 2015
+
+        make clean pdf
+
+
+  rm -rf _build/*
+  sphinx-build -b html -d _build/doctrees   . _build/html
+  Running Sphinx v1.3.1
+  making output directory...
+  loading pickled environment... not yet created
+* WARNING: 'default' html theme has been renamed to 'classic'. Please change your html_theme setting either to the new 'alabaster' default theme, or to 'classic' to keep using the old default.
+  building [mo]: targets for 0 po files that are out of date
+  building [html]: targets for 1 source files that are out of date
+  updating environment: 1 added, 0 changed, 0 removed
+  reading sources... [100%] index
+  
+  looking for now-outdated files... none found
+  pickling environment... done
+  checking consistency... done
+  preparing documents... done
+  writing output... [100%] index
+* WARNING: LaTeX command 'latex' cannot be run (needed for math display), check the pngmath_latex setting
+  
+  generating indices... genindex
+  writing additional pages... search
+* WARNING: html_static_path entry u'/home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/sphinx-issue252/_static' does not exist
+  copying static files... done
+  copying extra files... done
+  dumping search index in English (code: en) ... done
+  dumping object inventory... done
+  build succeeded, 3 warnings.
+  
+  Build finished. The HTML pages are in _build/html.
+  sphinx-build -b pdf -d _build/doctrees   . _build/pdf
+  Running Sphinx v1.3.1
+  making output directory...
+  loading pickled environment... done
+  building [mo]: targets for 0 po files that are out of date
+  building [pdf]: targets for 1 source files that are out of date
+  updating environment: 0 added, 0 changed, 0 removed
+  looking for now-outdated files... none found
+  processing MyProject... index 
+  resolving references...
+  done
+* [ERROR] math_flowable.py:40 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+* [ERROR] math_flowable.py:40 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+* [ERROR] math_flowable.py:40 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+* [ERROR] math_flowable.py:40 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+* [ERROR] math_flowable.py:40 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+* [ERROR] math_flowable.py:40 Math support not available, some parts of this document will be rendered incorrectly. Install matplotlib.
+  writing MyProject... done
+  build succeeded.
+  
+  Build finished. The PDF files are in _build/pdf.
+
+Program make exit code: PASS (0)   elapsed time: 01.7 seconds
+
+Validity of file sphinx-issue252.pdf checksum '16c4fac58fc6207cf5435dbe3096ef4e' is unknown.
