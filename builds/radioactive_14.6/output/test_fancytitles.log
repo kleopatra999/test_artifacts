@@ -1,0 +1,26 @@
+Process "/home/travis/miniconda/bin/rst2pdf" started on Tue Jul  7 04:28:41 2015
+
+        /home/travis/miniconda/bin/rst2pdf --date-invariant -v
+        test_fancytitles.txt -e fancytitles -e inkscape -o
+        /home/travis/build/pmaupin/radioactive-rst2pdf-
+        testing/rst2pdf/tests/output/test_fancytitles.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] createpdf.py:1572 Importing extension module 'fancytitles'
+* [INFO] createpdf.py:1572 Importing extension module 'inkscape'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/travis/.rst2pdf/styles', '/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/styles', '.']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] image.py:245 Backend for /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/tmpqwNy2F.svg is SVGIMage
+* [INFO] image.py:245 Backend for /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/tmp9oCPr7.svg is SVGIMage
+* [INFO] createpdf.py:651 Starting build
+* [WARNING] image.py:468 image /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/tmpqwNy2F.svg is too wide for the frame, rescaling
+* [WARNING] image.py:468 image /home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/input/tmp9oCPr7.svg is too wide for the frame, rescaling
+* [INFO] createpdf.py:1112 Page 1 [1]
+
+Program /home/travis/miniconda/bin/rst2pdf exit code: PASS (0)   elapsed time: 00.0 seconds
+
+Validity of file test_fancytitles.pdf checksum 'd2c8e5bf62367bc9275b8e840302988b' is unknown.

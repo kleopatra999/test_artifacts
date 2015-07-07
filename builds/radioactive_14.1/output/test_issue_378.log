@@ -1,0 +1,57 @@
+Process "/home/travis/miniconda/bin/rst2pdf" started on Tue Jul  7 04:24:29 2015
+
+        /home/travis/miniconda/bin/rst2pdf --date-invariant -v
+        test_issue_378.txt -o /home/travis/build/pmaupin/radioactive-
+        rst2pdf-testing/rst2pdf/tests/output/test_issue_378.pdf
+
+
+* [INFO] createpdf.py:1572 Importing extension module 'vectorpdf'
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] styles.py:82 Using stylesheets: 
+* [INFO] styles.py:110 FontPath:['/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/fonts', '.']
+* [INFO] styles.py:111 StylePath:['/home/travis/.rst2pdf/styles', '/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/styles', '.']
+* [INFO] languages.py:39 Language 'en_US' not supported by Docutils, using 'en' instead.
+* [INFO] createpdf.py:651 Starting build
+* Traceback (most recent call last):
+*   File "/home/travis/build/pmaupin/radioactive-rst2pdf-testing/rst2pdf/tests/execmgr.py", line 78, in wrapper
+*     preexec_fn()
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/createpdf.py", line 1495, in main
+*     compressed=options.compressed)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/createpdf.py", line 653, in createPdf
+*     pdfdoc.multiBuild(elements)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/doctemplate.py", line 960, in multiBuild
+*     self.build(tempStory, **buildKwds)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/doctemplate.py", line 880, in build
+*     self.handle_flowable(flowables)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/createpdf.py", line 762, in handle_flowable
+*     if frame.add(f, canv, trySplit=self.allowSplitting):
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/flowables.py", line 559, in add
+*     return Frame.add(self, flowable, canv, trySplit)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/frames.py", line 174, in _add
+*     flowable.drawOn(canv, self._x + self._leftExtraIndent, y, _sW=aW-w)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/rst2pdf-0.93.dev_r0-py2.7.egg/rst2pdf/flowables.py", line 248, in drawOn
+*     self.t.drawOn(canvas, x, y, _sW)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/flowables.py", line 108, in drawOn
+*     self._drawOn(canvas)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/flowables.py", line 89, in _drawOn
+*     self.draw()#this is the bit you overload
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/tables.py", line 1302, in draw
+*     self._drawCell(cellval, cellstyle, (colpos, rowpos), (colwidth, rowheight))
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/tables.py", line 1410, in _drawCell
+*     v.drawOn(self.canv,x,y)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/flowables.py", line 108, in drawOn
+*     self._drawOn(canvas)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/flowables.py", line 89, in _drawOn
+*     self.draw()#this is the bit you overload
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/paragraph.py", line 992, in draw
+*     self.drawPara(self.debug)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/paragraph.py", line 1458, in drawPara
+*     dpl( tx, offset, lines[0], noJustifyLast and nLines==1)
+*   File "/home/travis/miniconda/lib/python2.7/site-packages/reportlab/platypus/paragraph.py", line 335, in _justifyDrawParaLineX
+*     simple = last or abs(extraSpace)<=1e-8 or line.lineBreak
+* AttributeError: ParaLines instance has no attribute 'lineBreak'
+* 
+
+Program /home/travis/miniconda/bin/rst2pdf exit code: FAIL (1)   elapsed time: 00.0 seconds
+
+File test_issue_378.pdf not generated
